@@ -6,6 +6,8 @@ const app = express()
 
 connectDB()
 
+app.use(express.json({extended: false}))
+
 app.use('/api',apiRoute)
 
 const PORT = process.env.PORT || 3000
