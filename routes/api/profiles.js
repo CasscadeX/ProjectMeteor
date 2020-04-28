@@ -5,6 +5,7 @@ const User = require('../../models/Users')
 const { check, validationResult } = require('express-validator')
 const ExperienceRoute = require('./experience').route
 const EducationRoute = require('./education').route
+const GithubRoute = require('./github').route
 
 route = Router()
 
@@ -143,5 +144,8 @@ route.use('/experience',ExperienceRoute)
 
 //Use /api/profile/education => for handling the education
 route.use('/education',EducationRoute)
+
+//Use /api/profile/github => for handling github requests
+route.use('/github',GithubRoute)
 
 module.exports = { route }
