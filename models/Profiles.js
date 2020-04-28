@@ -39,19 +39,20 @@ const ProfileSchema = new mongoose.Schema({
         },
         location:{
             type: String,
-            required: true
+            // required: true
         },
-        form:{
-            type: Date,
+        from:{
+            // type: Date, TODO
+            type: String,
             required: true
         },
         to:{
             type: Date,
-            required: true
+            // required: true
         },
         current:{
             type: Boolean,
-            required: true
+            // required: true
         },
         description:{
             type: String
@@ -71,16 +72,17 @@ const ProfileSchema = new mongoose.Schema({
             required:true
         },
         from: {
-            type: Date,
+            // type: Date, TODO
+            type: String,
             required:true
         },
         to: {
             type: Date,
-            required:true
+            // required:true
         },
         current: {
             type: Boolean,
-            required:true
+            // required:true
         },
         description: {
             type: String

@@ -4,6 +4,7 @@ const Profile = require('../../models/Profiles')
 const User = require('../../models/Users')
 const { check, validationResult } = require('express-validator')
 const ExperienceRoute = require('./experience').route
+const EducationRoute = require('./education').route
 
 route = Router()
 
@@ -137,7 +138,10 @@ route.delete('/', auth , async (req, res) => {
     }
 })
 
-//Put /api/profile/experience => private => adding experience to profile
+//Use /api/profile/experience => for handling the experience
 route.use('/experience',ExperienceRoute)
+
+//Use /api/profile/education => for handling the education
+route.use('/education',EducationRoute)
 
 module.exports = { route }

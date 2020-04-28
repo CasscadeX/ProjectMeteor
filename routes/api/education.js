@@ -6,10 +6,11 @@ const { check, validationResult } = require('express-validator')
 
 route = Router()
 
-//Put /api/profile/experience => private => adding experience to profile
+//Put /api/profile/education => private => adding education to profile
 route.put('/', [auth, [
-    check('title','Title is required').not().isEmpty(),
-    check('company','Company is required').not().isEmpty(),
+    check('school','School is required').not().isEmpty(),
+    check('degree','Degree is required').not().isEmpty(),
+    check('fieldofstudy','Field of Study is required').not().isEmpty(),
     check('from','From date is required').not().isEmpty()
 ]] ,async (req, res) => {
     const errors = validationResult(req)
@@ -17,12 +18,12 @@ route.put('/', [auth, [
         return res.status(400).json({errors:errors.array()})
     }
 
-    const { title, company, location, from, to, current, description } = req.body
+    const { school, degree, fieldofstudy, from, to, current, description } = req.body
 
-    const newExp = {
-        title,
-        company,
-        location,
+    const newEdu = {
+        school,
+        degree,
+        fieldofstudy,
         from,
         to,
         current,
@@ -31,28 +32,28 @@ route.put('/', [auth, [
 
     try{
         const profile = await Profile.findOne({ user: req.user.id })
-        profile.experience.unshift(newExp)
+        profile.education.unshift(newEdu)
         await profile.save()
-        res.json(profile)
+        return res.json(profile)
     }catch (err) {
         console.error(err.message)
-        res.status(500).send("Server error")
+        return res.status(500).send("Server error")
     }
 
 })
 
-//Delete /api/profile/experience/:exp_id => private => deleting an experience
-route.delete('/:exp_id', auth, async (req, res) => {
+//Delete /api/profile/education/:edu_id => private => deleting an education
+route.delete('/:edu_id', auth, async (req, res) => {
     try {
         const profile = await Profile.findOne({ user: req.user.id })
 
-        const removeIndex = profile.experience.map(item => item.id).indexOf(req.params.exp_id)
-        profile.experience.splice(removeIndex,1)
+        const removeIndex = profile.education.map(item => item.id).indexOf(req.params.edu_id)
+        profile.education.splice(removeIndex,1)
         await profile.save()
-        res.json(profile)
+        return res.json(profile)
     }catch (err) {
         console.error(err.message)
-        res.status(500).send("Server error")
+        return res.status(500).send("Server error")
     }
 })
 
