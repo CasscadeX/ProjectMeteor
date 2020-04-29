@@ -26,7 +26,7 @@ route.get('/me' ,auth ,async (req, res) => {
 })
 
 
-//Post /api/profile => private => creating or updating a profile
+//POST /api/profile => private => creating or updating a profile
 route.post('/' , [auth , [
     check('status','Status is required').not().isEmpty(),
     check('skills','Skills are required').not().isEmpty()
@@ -94,7 +94,7 @@ route.post('/' , [auth , [
 })
 
 
-//Get /api/profiles =>public => getting all profiles
+//GET /api/profiles =>public => getting all profiles
 route.get('/',async (req, res) => {
     try{
         const profiles = await Profile.find().populate('user',['name','avatar'])
@@ -106,7 +106,7 @@ route.get('/',async (req, res) => {
 })
 
 
-//Get /api/profiles/user/:user_id => private => getting user profile by user id
+//GET /api/profiles/user/:user_id => private => getting user profile by user id
 route.get('/user/:user_id',async (req, res) => {
     try{
         const profile = await Profile.findOne({ user: req.params.user_id }).populate('user',['name','avatar'])
@@ -118,15 +118,16 @@ route.get('/user/:user_id',async (req, res) => {
         res.json(profile)
     }catch (err) {
         console.error(err.message)
-        if(err.kind == 'ObjectID'){
-            return res.status(400).json({msg: 'Profile not found'})
-        }
+        //TODO
+        // if(err.kind == 'ObjectID'){
+        //     return res.status(400).json({msg: 'Profile not found'})
+        // }
         res.status(500).send("server Error")
     }
 })
 
 
-//Delete /api/profile => private => delete profile, user and posts
+//DELETE /api/profile => private => delete profile, user and posts
 route.delete('/', auth , async (req, res) => {
     try{
         //Remove Profile,User and TODO => remove user's posts
@@ -139,13 +140,13 @@ route.delete('/', auth , async (req, res) => {
     }
 })
 
-//Use /api/profile/experience => for handling the experience
+//USE /api/profile/experience => for handling the experience
 route.use('/experience',ExperienceRoute)
 
-//Use /api/profile/education => for handling the education
+//USE /api/profile/education => for handling the education
 route.use('/education',EducationRoute)
 
-//Use /api/profile/github => for handling github requests
+//USE /api/profile/github => for handling github requests
 route.use('/github',GithubRoute)
 
 module.exports = { route }

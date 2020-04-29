@@ -4,7 +4,7 @@ const config = require('config')
 
 route = Router()
 
-//Get /api/profile/github/:username => public => for handling github requests
+//GET /api/profile/github/:username => public => for handling github requests
 route.get('/:username', async (req, res) => {
     try {
         const uri = encodeURI(

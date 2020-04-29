@@ -6,7 +6,7 @@ const { check, validationResult } = require('express-validator')
 
 route = Router()
 
-//Put /api/profile/experience => private => adding experience to profile
+//PUT /api/profile/experience => private => adding experience to profile
 route.put('/', [auth, [
     check('title','Title is required').not().isEmpty(),
     check('company','Company is required').not().isEmpty(),
@@ -41,7 +41,7 @@ route.put('/', [auth, [
 
 })
 
-//Delete /api/profile/experience/:exp_id => private => deleting an experience
+//DELETE /api/profile/experience/:exp_id => private => deleting an experience
 route.delete('/:exp_id', auth, async (req, res) => {
     try {
         const profile = await Profile.findOne({ user: req.user.id })

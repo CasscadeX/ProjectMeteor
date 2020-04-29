@@ -6,7 +6,7 @@ const { check, validationResult } = require('express-validator')
 
 route = Router()
 
-//Put /api/profile/education => private => adding education to profile
+//PUT /api/profile/education => private => adding education to profile
 route.put('/', [auth, [
     check('school','School is required').not().isEmpty(),
     check('degree','Degree is required').not().isEmpty(),
@@ -42,7 +42,7 @@ route.put('/', [auth, [
 
 })
 
-//Delete /api/profile/education/:edu_id => private => deleting an education
+//DELETE /api/profile/education/:edu_id => private => deleting an education
 route.delete('/:edu_id', auth, async (req, res) => {
     try {
         const profile = await Profile.findOne({ user: req.user.id })
