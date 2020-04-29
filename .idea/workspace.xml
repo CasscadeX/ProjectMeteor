@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc427da4-8965-4397-888a-27cb0c80fd56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/models/Post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api/education.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api/education.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api/experience.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api/experience.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api/github.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api/github.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api/posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api/profiles.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api/profiles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +36,26 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CB_web_Proj" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="server.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="server.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.server.js" />
+      <item itemvalue="npm.dev" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -67,7 +78,8 @@
       <workItem from="1588029292345" duration="9396000" />
       <workItem from="1588070858307" duration="3420000" />
       <workItem from="1588149713120" duration="1004000" />
-      <workItem from="1588159988044" duration="4203000" />
+      <workItem from="1588159988044" duration="6625000" />
+      <workItem from="1588181516566" duration="1283000" />
     </task>
     <servers />
   </component>
@@ -75,30 +87,34 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587453289834">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588179442687">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587453289834" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588179442687" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588181345342">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588181345342" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1587980603231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587980603231" />
-    <state width="1877" height="207" key="GridCell.Tab.0.bottom" timestamp="1588163984339">
+    <state width="1877" height="207" key="GridCell.Tab.0.bottom" timestamp="1588179639508">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="207" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588163984339" />
-    <state width="1877" height="207" key="GridCell.Tab.0.center" timestamp="1588163984339">
+    <state width="1877" height="207" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588179639508" />
+    <state width="1877" height="207" key="GridCell.Tab.0.center" timestamp="1588179639508">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="207" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588163984339" />
-    <state width="1877" height="207" key="GridCell.Tab.0.left" timestamp="1588163984339">
+    <state width="1877" height="207" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588179639508" />
+    <state width="1877" height="207" key="GridCell.Tab.0.left" timestamp="1588179639508">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="207" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588163984339" />
-    <state width="1877" height="207" key="GridCell.Tab.0.right" timestamp="1588163984339">
+    <state width="1877" height="207" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588179639508" />
+    <state width="1877" height="207" key="GridCell.Tab.0.right" timestamp="1588179639508">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="207" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588163984339" />
+    <state width="1877" height="207" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588179639508" />
     <state width="1877" height="340" key="GridCell.Tab.1.bottom" timestamp="1588163709776">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -155,6 +171,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="247" height="198" key="RunAnythingAction_Filter_Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588160646864" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1588181506375">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588181506375" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1588160646866">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
