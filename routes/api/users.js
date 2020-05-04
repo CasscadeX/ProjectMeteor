@@ -18,7 +18,7 @@ route.post('/',[
     //array of errors
     const errors = validationResult(req)
     if(!errors.isEmpty()){
-        res.status(400).json({errors:errors.array()})
+        return res.status(400).json({errors:errors.array()})
     }
 
     const { name, email, password } = req.body
@@ -59,11 +59,11 @@ route.post('/',[
             if(err) {
                 throw err
             }
-            res.json({token})
+            return res.json({token})
         })
     }catch (err) {
         console.error(err.message)
-        res.status(500).send("Server Error")
+        return res.status(500).send("Server Error")
     }
 })
 

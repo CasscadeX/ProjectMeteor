@@ -2,9 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc427da4-8965-4397-888a-27cb0c80fd56" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Prashubh_Atri.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/actions/alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/actions/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/actions/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/auth/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/auth/Register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/layout/Alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/layout/Landing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/layout/Navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/reducers/alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/reducers/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/reducers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api/users.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,11 +51,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CB_web_Proj" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WORK\ProjectBeta\ProjectBeta\client\src" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.dev">
     <configuration name="server.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="server.js" working-dir="$PROJECT_DIR$">
@@ -52,10 +77,21 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Node.js.server.js" />
+      <item itemvalue="npm.start" />
       <item itemvalue="npm.dev" />
     </list>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_CLASSES,ALPHA_COMPARATOR" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -80,6 +116,13 @@
       <workItem from="1588149713120" duration="1004000" />
       <workItem from="1588159988044" duration="6625000" />
       <workItem from="1588181516566" duration="1283000" />
+      <workItem from="1588273356204" duration="34000" />
+      <workItem from="1588273413142" duration="4848000" />
+      <workItem from="1588308804097" duration="7283000" />
+      <workItem from="1588407285719" duration="4856000" />
+      <workItem from="1588484937546" duration="4002000" />
+      <workItem from="1588522337573" duration="1584000" />
+      <workItem from="1588530927793" duration="3525000" />
     </task>
     <servers />
   </component>
@@ -87,10 +130,18 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588179442687">
+    <state x="847" y="356" key="#Notifications" timestamp="1588407310460">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588179442687" />
+    <state x="847" y="356" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1588407310460" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588311499486">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588311499486" />
+    <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588273385385">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588273385385" />
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588181345342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -99,22 +150,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587980603231" />
-    <state width="1877" height="207" key="GridCell.Tab.0.bottom" timestamp="1588179639508">
+    <state width="935" height="369" key="GridCell.Tab.0.bottom" timestamp="1588534455943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="207" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588179639508" />
-    <state width="1877" height="207" key="GridCell.Tab.0.center" timestamp="1588179639508">
+    <state width="935" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588534455943" />
+    <state width="935" height="369" key="GridCell.Tab.0.center" timestamp="1588534455943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="207" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588179639508" />
-    <state width="1877" height="207" key="GridCell.Tab.0.left" timestamp="1588179639508">
+    <state width="935" height="369" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588534455943" />
+    <state width="935" height="369" key="GridCell.Tab.0.left" timestamp="1588534455942">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="207" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588179639508" />
-    <state width="1877" height="207" key="GridCell.Tab.0.right" timestamp="1588179639508">
+    <state width="935" height="369" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588534455942" />
+    <state width="935" height="369" key="GridCell.Tab.0.right" timestamp="1588534455943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="207" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588179639508" />
+    <state width="935" height="369" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588534455943" />
     <state width="1877" height="340" key="GridCell.Tab.1.bottom" timestamp="1588163709776">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -171,17 +222,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="247" height="198" key="RunAnythingAction_Filter_Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588160646864" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1588181506375">
+    <state x="461" y="164" key="SettingsEditor" timestamp="1588275567938">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588181506375" />
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588275567938" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1588160646866">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588160646866" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587625413622">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588497098635">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587625413622" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588497098635" />
   </component>
 </project>
