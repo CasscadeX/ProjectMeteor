@@ -2,22 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc427da4-8965-4397-888a-27cb0c80fd56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/actions/profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/dashboard/Dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/routing/PrivateRoute.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/reducers/profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/utils/setAuthToken.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Prashubh_Atri.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Prashubh_Atri.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/layout/Spinners.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/profile-form/CreateProfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/default.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/actions/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/actions/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/profile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/auth/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/auth/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/auth/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/auth/Register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/dashboard/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/dashboard/Dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/layout/Landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/layout/Landing.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/layout/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/layout/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/reducers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reducers/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api/profiles.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api/profiles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CB_web_Proj" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/devconnector_2.0-master/devconnector_2.0-master" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -117,7 +116,15 @@
       <workItem from="1588484937546" duration="4002000" />
       <workItem from="1588522337573" duration="1584000" />
       <workItem from="1588530927793" duration="3525000" />
-      <workItem from="1588566392694" duration="14845000" />
+      <workItem from="1588566392694" duration="17457000" />
+      <workItem from="1588659292906" duration="3205000" />
+      <workItem from="1588690376201" duration="2187000" />
+      <workItem from="1588703503902" duration="6625000" />
+      <workItem from="1588763951965" duration="1234000" />
+      <workItem from="1588770198054" duration="634000" />
+      <workItem from="1588774725453" duration="1980000" />
+      <workItem from="1588832291989" duration="3967000" />
+      <workItem from="1588855548527" duration="112000" />
     </task>
     <servers />
   </component>
@@ -145,26 +152,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588181345342" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1587980603231">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1588706341871">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587980603231" />
-    <state width="936" height="372" key="GridCell.Tab.0.bottom" timestamp="1588606135001">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588706341871" />
+    <state width="1899" height="242" key="GridCell.Tab.0.bottom" timestamp="1588837431808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="372" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588606135001" />
-    <state width="936" height="372" key="GridCell.Tab.0.center" timestamp="1588606135001">
+    <state width="1899" height="242" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588837431808" />
+    <state width="1899" height="242" key="GridCell.Tab.0.center" timestamp="1588837431808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="372" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588606135001" />
-    <state width="936" height="372" key="GridCell.Tab.0.left" timestamp="1588606135001">
+    <state width="1899" height="242" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588837431808" />
+    <state width="1899" height="242" key="GridCell.Tab.0.left" timestamp="1588837431808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="372" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588606135001" />
-    <state width="936" height="372" key="GridCell.Tab.0.right" timestamp="1588606135001">
+    <state width="1899" height="242" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588837431808" />
+    <state width="1899" height="242" key="GridCell.Tab.0.right" timestamp="1588837431808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="372" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588606135001" />
+    <state width="1899" height="242" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588837431808" />
     <state width="1877" height="340" key="GridCell.Tab.1.bottom" timestamp="1588163709776">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -229,9 +236,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588160646866" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588497098635">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588704290145">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588497098635" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588704290145" />
   </component>
 </project>
