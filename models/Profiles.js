@@ -42,8 +42,7 @@ const ProfileSchema = new mongoose.Schema({
             // required: true
         },
         from:{
-            // type: Date, TODO
-            type: String,
+            type: Date,
             required: true
         },
         to:{
@@ -72,8 +71,7 @@ const ProfileSchema = new mongoose.Schema({
             required:true
         },
         from: {
-            // type: Date, TODO
-            type: String,
+            type: Date,
             required:true
         },
         to: {

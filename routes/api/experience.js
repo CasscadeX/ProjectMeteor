@@ -6,7 +6,7 @@ const { check, validationResult } = require('express-validator')
 
 route = Router()
 
-//PUT /api/profile/experience => private => adding experience to profile
+//PUT /api/profiles/experience => private => adding experience to profile
 route.put('/', [auth, [
     check('title','Title is required').not().isEmpty(),
     check('company','Company is required').not().isEmpty(),
