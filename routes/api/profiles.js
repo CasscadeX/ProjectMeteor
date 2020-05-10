@@ -2,6 +2,7 @@ const { Router } = require('express')
 const auth = require('../../middleware/auth')
 const Profile = require('../../models/Profiles')
 const User = require('../../models/Users')
+const Post = require('../../models/Post')
 const { check, validationResult } = require('express-validator')
 const ExperienceRoute = require('./experience').route
 const EducationRoute = require('./education').route
@@ -130,7 +131,7 @@ route.get('/user/:user_id',async (req, res) => {
 //DELETE /api/profile => private => delete profile, user and posts
 route.delete('/', auth , async (req, res) => {
     try{
-        //Remove Profile,User and TODO => remove user's posts
+        await Post.deleteMany({user: req.user.id})
         await Profile.findOneAndRemove({ user: req.user.id })
         await User.findOneAndRemove({ _id: req.user.id })
         res.json({msg: 'User Deleted'})

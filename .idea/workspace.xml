@@ -2,19 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc427da4-8965-4397-888a-27cb0c80fd56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/components/dashboard/Dashboard-actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/profile-form/AddEducation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/profile-form/AddExperience.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/profile-form/EditProfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/dashboard/Education.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/dashboard/Experience.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/profiles/Profiles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/profiles/ProfilesItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/actions/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/profile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/types.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/dashboard/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/dashboard/Dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/profile-form/CreateProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/profile-form/CreateProfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/layout/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/layout/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/profile-form/AddEducation.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/profile-form/AddEducation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/routing/PrivateRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/routing/PrivateRoute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reducers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/auth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/reducers/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Profiles.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Profiles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api/experience.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api/experience.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api/profiles.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api/profiles.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/devconnector_2.0-master/devconnector_2.0-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -130,6 +132,8 @@
       <workItem from="1589022808202" duration="624000" />
       <workItem from="1589023909758" duration="3100000" />
       <workItem from="1589035391774" duration="3301000" />
+      <workItem from="1589046025529" duration="5821000" />
+      <workItem from="1589086654777" duration="8964000" />
     </task>
     <servers />
   </component>
@@ -161,22 +165,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588706341871" />
-    <state width="1899" height="481" key="GridCell.Tab.0.bottom" timestamp="1589038361099">
+    <state width="1899" height="481" key="GridCell.Tab.0.bottom" timestamp="1589100542886">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="481" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589038361099" />
-    <state width="1899" height="481" key="GridCell.Tab.0.center" timestamp="1589038361099">
+    <state width="1899" height="481" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589100542886" />
+    <state width="1899" height="481" key="GridCell.Tab.0.center" timestamp="1589100542886">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="481" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589038361099" />
-    <state width="1899" height="481" key="GridCell.Tab.0.left" timestamp="1589038361099">
+    <state width="1899" height="481" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589100542886" />
+    <state width="1899" height="481" key="GridCell.Tab.0.left" timestamp="1589100542886">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="481" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589038361099" />
-    <state width="1899" height="481" key="GridCell.Tab.0.right" timestamp="1589038361099">
+    <state width="1899" height="481" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589100542886" />
+    <state width="1899" height="481" key="GridCell.Tab.0.right" timestamp="1589100542886">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="481" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589038361099" />
+    <state width="1899" height="481" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589100542886" />
     <state width="1877" height="340" key="GridCell.Tab.1.bottom" timestamp="1588163709776">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
