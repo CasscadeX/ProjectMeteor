@@ -9,7 +9,7 @@ const route = Router()
 
 //Routes from /api/
 route.use('/posts', postsRoute)
-route.use('/profiles', profilesRoute)
+route.use('/profile', profilesRoute)
 route.use('/users', usersRoute)
 route.use('/auth', authRoute)
 

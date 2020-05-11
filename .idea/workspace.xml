@@ -2,21 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc427da4-8965-4397-888a-27cb0c80fd56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/components/dashboard/Education.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/dashboard/Experience.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/profiles/Profiles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/profiles/ProfilesItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/actions/alert.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/alert.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/actions/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/auth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/actions/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/profile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/dashboard/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/dashboard/Dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/layout/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/layout/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/profile-form/AddEducation.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/profile-form/AddEducation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/routing/PrivateRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/routing/PrivateRoute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/auth/Login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/auth/Register.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/dashboard/Dashboard-actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/dashboard/Dashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/dashboard/Education.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/dashboard/Experience.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/layout/Alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/layout/Landing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/layout/Navbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/layout/Spinners.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/layout/spinner.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/profile-form/AddEducation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/profile-form/AddExperience.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/profile-form/CreateProfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/profile-form/EditProfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/profiles/Profiles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/profiles/ProfilesItem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/routing/PrivateRoute.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/img/showcase.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reducers/alert.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/alert.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/reducers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/reducers/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api/profiles.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api/profiles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/utils/setAuthToken.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/setAuthToken.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +154,12 @@
       <workItem from="1589023909758" duration="3100000" />
       <workItem from="1589035391774" duration="3301000" />
       <workItem from="1589046025529" duration="5821000" />
-      <workItem from="1589086654777" duration="8964000" />
+      <workItem from="1589086654777" duration="14429000" />
+      <workItem from="1589135250154" duration="3509000" />
+      <workItem from="1589179264780" duration="1541000" />
+      <workItem from="1589181311526" duration="4672000" />
+      <workItem from="1589187484405" duration="13000" />
+      <workItem from="1589187565951" duration="690000" />
     </task>
     <servers />
   </component>
@@ -161,26 +187,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588181345342" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1588706341871">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1589180207379">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588706341871" />
-    <state width="1899" height="481" key="GridCell.Tab.0.bottom" timestamp="1589100542886">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589180207379" />
+    <state width="1899" height="2" key="GridCell.Tab.0.bottom" timestamp="1589188256085">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="481" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589100542886" />
-    <state width="1899" height="481" key="GridCell.Tab.0.center" timestamp="1589100542886">
+    <state width="1899" height="2" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589188256085" />
+    <state width="1899" height="2" key="GridCell.Tab.0.center" timestamp="1589188256084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="481" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589100542886" />
-    <state width="1899" height="481" key="GridCell.Tab.0.left" timestamp="1589100542886">
+    <state width="1899" height="2" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589188256084" />
+    <state width="1899" height="2" key="GridCell.Tab.0.left" timestamp="1589188256084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="481" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589100542886" />
-    <state width="1899" height="481" key="GridCell.Tab.0.right" timestamp="1589100542886">
+    <state width="1899" height="2" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589188256084" />
+    <state width="1899" height="2" key="GridCell.Tab.0.right" timestamp="1589188256084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="481" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589100542886" />
+    <state width="1899" height="2" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589188256084" />
     <state width="1877" height="340" key="GridCell.Tab.1.bottom" timestamp="1588163709776">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -237,10 +263,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="247" height="198" key="RunAnythingAction_Filter_Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588160646864" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1588275567938">
+    <state x="461" y="164" key="SettingsEditor" timestamp="1589130731708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588275567938" />
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589130731708" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1588160646866">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
