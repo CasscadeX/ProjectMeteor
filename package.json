@@ -1,6 +1,9 @@
 {
   "name": "projectmeteor",
   "version": "1.0.1",
+  "engines": {
+    "node": "12.16.3"
+  },
   "description": "A simple Blog project built on MERN Stack",
   "main": "server.js",
   "scripts": {
