@@ -1,0 +1,20 @@
+root:
+    GET => Dashboard or Landing Page
+    /api
+        /posts
+            POST => Create a post [Private]
+            GET => Getting all post [Private]
+            /:post_id
+                GET => Getting post by id [Private]
+                DELETE => Delete a post [Private]
+            /like/:post_id
+                PUT => Like a Post [Private]
+            /unlike/:post_id
+                PUT => Removing a Like from a Post [Private]
+            /comment/:post_id
+                POST => Adding a Comment to a Post [Private]
+            /comment/:post_id/:comment_id
+                DELETE => Removing a Comment from a Post
+        /profile
+        /users
+        /auth

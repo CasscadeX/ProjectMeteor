@@ -1,88 +1,74 @@
-const express = require('express');
-const router = express.Router();
-const gravatar = require('gravatar');
-const bcrypt = require('bcryptjs');
-const jwt = require('jsonwebtoken');
+const { Router } = require('express')
+const { check, validationResult } = require('express-validator')
+const jwt = require('jsonwebtoken')
+const gravatar = require('gravatar')
+const bcrypt = require('bcryptjs')
+const User = require('../../models/Users')
 const config = require('config');
-const { check, validationResult } = require('express-validator');
 const normalize = require('normalize-url');
 
-const User = require('../../models/User');
+route = Router()
 
-// @route    POST api/users
-// @desc     Register user
-// @access   Public
-router.post(
-  '/',
-  [
-    check('name', 'Name is required')
-      .not()
-      .isEmpty(),
-    check('email', 'Please include a valid email').isEmail(),
-    check(
-      'password',
-      'Please enter a password with 6 or more characters'
-    ).isLength({ min: 6 })
-  ],
-  async (req, res) => {
-    const errors = validationResult(req);
-    if (!errors.isEmpty()) {
-      return res.status(400).json({ errors: errors.array() });
+//POST /api/users => public => Register a User
+//(path,middleware for validation of fields,callback function)
+route.post('/',[
+    //name, email and password validation
+    check('name','Field is Required').not().isEmpty(),
+    check('email','Field is Required').isEmail(),
+    check('password','Password must be of at least of 6 characters').isLength({min:6})
+],async (req, res) => {
+    //array of errors
+    const errors = validationResult(req)
+    if(!errors.isEmpty()){
+        return res.status(400).json({errors:errors.array()})
     }
 
-    const { name, email, password } = req.body;
-
-    try {
-      let user = await User.findOne({ email });
-
-      if (user) {
-        return res
-          .status(400)
-          .json({ errors: [{ msg: 'User already exists' }] });
-      }
-
-      const avatar = normalize(
-        gravatar.url(email, {
-          s: '200',
-          r: 'pg',
-          d: 'mm'
-        }),
-        { forceHttps: true }
-      );
-
-      user = new User({
-        name,
-        email,
-        avatar,
-        password
-      });
-
-      const salt = await bcrypt.genSalt(10);
-
-      user.password = await bcrypt.hash(password, salt);
-
-      await user.save();
-
-      const payload = {
-        user: {
-          id: user.id
+    const { name, email, password } = req.body
+    try{
+        //to check for pre-existing user
+        let user =  await User.findOne({email})
+        if(user){
+            return res.status(400).json({errors:[{msg: 'User already exist '}]})
         }
-      };
 
-      jwt.sign(
-        payload,
-        config.get('jwtSecret'),
-        { expiresIn: 360000 },
-        (err, token) => {
-          if (err) throw err;
-          res.json({ token });
+        //assigning a default image
+        const avatar = normalize(
+            gravatar.url(email,{
+                s: '200',
+                r: 'pg',
+                d: 'mm'
+            })
+        );
+        //new instance of user
+        user = new User({
+            name,
+            email,
+            avatar,
+            password
+        })
+        //encrypting the password
+        const salt = await bcrypt.genSalt(10)
+        user.password = await bcrypt.hash(password,salt)
+
+        //saving a user
+        await user.save()
+
+        //JWT
+        const payload = {
+            user:{
+                id: user.id
+            }
         }
-      );
-    } catch (err) {
-      console.error(err.message);
-      res.status(500).send('Server error');
+        jwt.sign(payload,config.get('jwtSecret'),{expiresIn:360000},(err,token)=>{
+            if(err) {
+                throw err
+            }
+            return res.json({token})
+        })
+    }catch (err) {
+        console.error(err.message)
+        return res.status(500).send("Server Error")
     }
-  }
-);
+})
 
-module.exports = router;
+module.exports = { route }

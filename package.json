@@ -1,9 +1,6 @@
 {
-  "name": "projectmeteor",
-  "version": "1.0.1",
-  "engines": {
-    "node": "12.16.3"
-  },
+  "name": "blogproject",
+  "version": "1.0.0",
   "description": "A simple Blog project built on MERN Stack",
   "main": "server.js",
   "scripts": {
@@ -13,35 +10,29 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrashubhAtri/ProjectBeta.git"
+  },
   "author": "Prashubh Atri",
-  "license": "MIT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PrashubhAtri/ProjectBeta/issues"
+  },
+  "homepage": "https://github.com/PrashubhAtri/ProjectBeta#readme",
   "dependencies": {
     "axios": "^0.19.2",
     "bcryptjs": "^2.4.3",
-    "client": "file:client",
-    "config": "^3.3.0",
+    "config": "^3.3.1",
     "express": "^4.17.1",
     "express-validator": "^6.4.0",
     "gravatar": "^1.8.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.9.5",
+    "mongoose": "^5.9.10",
     "normalize-url": "^5.0.0"
   },
   "devDependencies": {
     "concurrently": "^5.1.0",
-    "nodemon": "^2.0.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PrashubhAtri/ProjectMeteor.git"
-  },
-  "keywords": [
-    "nodejs",
-    "expressjs",
-    "mongodb"
-  ],
-  "bugs": {
-    "url": "https://github.com/PrashubhAtri/ProjectMeteor/issues"
-  },
-  "homepage": "https://github.com/PrashubhAtri/ProjectMeteor#readme"
+    "nodemon": "^2.0.3"
+  }
 }
