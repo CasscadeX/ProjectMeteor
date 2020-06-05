@@ -1,8 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc427da4-8965-4397-888a-27cb0c80fd56" name="Default Changelist" comment="">
+    <list default="true" id="95fe7860-8a60-4761-a8fc-f3c869999f42" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/middleware/checkObjectId.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ProjectBeta.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Prashubh_Atri.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/meteor-solid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/actions/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/actions/auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/actions/post.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/actions/profile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/actions/types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/auth/Login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/auth/Register.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/dashboard/Dashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/dashboard/DashboardActions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/dashboard/Education.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/dashboard/Experience.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/layout/Alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/layout/Landing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/layout/Navbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/layout/NotFound.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/layout/Spinner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/layout/spinner.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/post/CommentForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/post/CommentItem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/post/Post.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/posts/PostForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/posts/PostItem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/posts/Posts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/profile-forms/AddEducation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/profile-forms/AddExperience.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/profile-forms/ProfileForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/profile/Profile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/profile/ProfileAbout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/profile/ProfileEducation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/profile/ProfileExperience.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/profile/ProfileGithub.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/profile/ProfileTop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/profiles/ProfileItem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/profiles/Profiles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/routing/PrivateRoute.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/routing/Routes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reducers/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reducers/auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reducers/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reducers/post.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reducers/profile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/utils/setAuthToken.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/production.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/db.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/middleware/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Profiles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api/education.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api/experience.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api/github.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api/posts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api/profiles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,17 +86,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
+        <option value="package.json" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1aqBMvQbeKNJIJmP9G4aBrkkRJF" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1bUdsuIAJ4lYqsRuepcS0shegHY" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,103 +101,41 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/devconnector_2.0-master/devconnector_2.0-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\WORK\ProjectBeta\ProjectBeta\client\src" />
+      <recent name="D:\WORK\ProjectBeta" />
     </key>
-  </component>
-  <component name="RunManager" selected="npm.dev">
-    <configuration name="server.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="server.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="dev" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/client/package.json" />
-      <command value="start" />
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Node.js.server.js" />
-      <item itemvalue="npm.dev" />
-      <item itemvalue="npm.start" />
-    </list>
-  </component>
-  <component name="StructureViewFactory">
-    <option name="ACTIVE_ACTIONS" value=",SHOW_CLASSES,ALPHA_COMPARATOR" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Prashubh Atri\Downloads\devconnector_2.0-master\devconnector_2.0-master\client\public" />
+      <recent name="C:\Users\Prashubh Atri\Downloads\devconnector_2.0-master\devconnector_2.0-master\client\src\img" />
+      <recent name="C:\Users\Prashubh Atri\Downloads\devconnector_2.0-master\devconnector_2.0-master\config" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="dc427da4-8965-4397-888a-27cb0c80fd56" name="Default Changelist" comment="" />
-      <created>1587453198507</created>
+      <changelist id="95fe7860-8a60-4761-a8fc-f3c869999f42" name="Default Changelist" comment="" />
+      <created>1588690815315</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1587453198507</updated>
-      <workItem from="1587453201893" duration="1513000" />
-      <workItem from="1587546859269" duration="196000" />
-      <workItem from="1587556790156" duration="8709000" />
-      <workItem from="1587622307111" duration="8700000" />
-      <workItem from="1587793597568" duration="4392000" />
-      <workItem from="1587876682125" duration="1533000" />
-      <workItem from="1587980579999" duration="64000" />
-      <workItem from="1587989452231" duration="10587000" />
-      <workItem from="1588029292345" duration="9396000" />
-      <workItem from="1588070858307" duration="3420000" />
-      <workItem from="1588149713120" duration="1004000" />
-      <workItem from="1588159988044" duration="6625000" />
-      <workItem from="1588181516566" duration="1283000" />
-      <workItem from="1588273356204" duration="34000" />
-      <workItem from="1588273413142" duration="4848000" />
-      <workItem from="1588308804097" duration="7283000" />
-      <workItem from="1588407285719" duration="4856000" />
-      <workItem from="1588484937546" duration="4002000" />
-      <workItem from="1588522337573" duration="1584000" />
-      <workItem from="1588530927793" duration="3525000" />
-      <workItem from="1588566392694" duration="17457000" />
-      <workItem from="1588659292906" duration="3205000" />
-      <workItem from="1588690376201" duration="2187000" />
-      <workItem from="1588703503902" duration="6625000" />
-      <workItem from="1588763951965" duration="1234000" />
-      <workItem from="1588770198054" duration="634000" />
-      <workItem from="1588774725453" duration="1980000" />
-      <workItem from="1588832291989" duration="3967000" />
-      <workItem from="1588855548527" duration="112000" />
-      <workItem from="1588924601521" duration="1793000" />
-      <workItem from="1588935146085" duration="4884000" />
-      <workItem from="1588952040994" duration="1000" />
-      <workItem from="1588995568022" duration="561000" />
-      <workItem from="1589022808202" duration="624000" />
-      <workItem from="1589023909758" duration="3100000" />
-      <workItem from="1589035391774" duration="3301000" />
-      <workItem from="1589046025529" duration="5821000" />
-      <workItem from="1589086654777" duration="14429000" />
-      <workItem from="1589135250154" duration="3509000" />
-      <workItem from="1589179264780" duration="1541000" />
-      <workItem from="1589181311526" duration="4672000" />
-      <workItem from="1589187484405" duration="13000" />
-      <workItem from="1589187565951" duration="690000" />
-      <workItem from="1589188292149" duration="217000" />
-      <workItem from="1589188519291" duration="2150000" />
+      <updated>1588690815315</updated>
+      <workItem from="1588690817032" duration="557000" />
+      <workItem from="1588706344700" duration="61000" />
+      <workItem from="1589057508274" duration="80000" />
+      <workItem from="1589086618808" duration="21000" />
+      <workItem from="1589132146363" duration="115000" />
+      <workItem from="1589135261836" duration="77000" />
+      <workItem from="1589188376605" duration="66000" />
+      <workItem from="1591352611433" duration="569000" />
+      <workItem from="1591354636306" duration="2193000" />
+      <workItem from="1591383029864" duration="402000" />
+      <workItem from="1591384099875" duration="689000" />
     </task>
     <servers />
   </component>
@@ -134,113 +143,9 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1065" y="198" key="#Inspections" timestamp="1588569962663">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1589086636744">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1065" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1588569962663" />
-    <state x="847" y="356" key="#Notifications" timestamp="1588407310460">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="847" y="356" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1588407310460" />
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588311499486">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588311499486" />
-    <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588273385385">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588273385385" />
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588181345342">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588181345342" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1589188373556">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589188373556" />
-    <state width="936" height="2" key="GridCell.Tab.0.bottom" timestamp="1589189811532">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="936" height="2" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589189811532" />
-    <state width="936" height="2" key="GridCell.Tab.0.center" timestamp="1589189811532">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="936" height="2" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589189811532" />
-    <state width="936" height="2" key="GridCell.Tab.0.left" timestamp="1589189811532">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="936" height="2" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589189811532" />
-    <state width="936" height="2" key="GridCell.Tab.0.right" timestamp="1589189811532">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="936" height="2" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589189811532" />
-    <state width="1877" height="340" key="GridCell.Tab.1.bottom" timestamp="1588163709776">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="340" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588163709776" />
-    <state width="1877" height="340" key="GridCell.Tab.1.center" timestamp="1588163709776">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="340" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588163709776" />
-    <state width="1877" height="340" key="GridCell.Tab.1.left" timestamp="1588163709776">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="340" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588163709776" />
-    <state width="1877" height="340" key="GridCell.Tab.1.right" timestamp="1588163709776">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="340" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588163709776" />
-    <state width="1877" height="340" key="GridCell.Tab.2.bottom" timestamp="1588163709776">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="340" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588163709776" />
-    <state width="1877" height="340" key="GridCell.Tab.2.center" timestamp="1588163709776">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="340" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588163709776" />
-    <state width="1877" height="340" key="GridCell.Tab.2.left" timestamp="1588163709776">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="340" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588163709776" />
-    <state width="1877" height="340" key="GridCell.Tab.2.right" timestamp="1588163709776">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="340" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588163709776" />
-    <state width="1877" height="340" key="GridCell.Tab.3.bottom" timestamp="1588163709776">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="340" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588163709776" />
-    <state width="1877" height="340" key="GridCell.Tab.3.center" timestamp="1588163709776">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="340" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588163709776" />
-    <state width="1877" height="340" key="GridCell.Tab.3.left" timestamp="1588163709776">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="340" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588163709776" />
-    <state width="1877" height="340" key="GridCell.Tab.3.right" timestamp="1588163709776">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="340" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588163709776" />
-    <state x="540" y="254" key="IDE.errors.dialog" timestamp="1587796750594">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="540" y="254" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587796750594" />
-    <state width="247" height="198" key="RunAnythingAction_Filter_Popup" timestamp="1588160646864">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="247" height="198" key="RunAnythingAction_Filter_Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588160646864" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1589130731708">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589130731708" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1588160646866">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588160646866" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588704290145">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588704290145" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589086636744" />
   </component>
 </project>
